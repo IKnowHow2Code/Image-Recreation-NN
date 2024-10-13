@@ -25,5 +25,5 @@ This repository contains a PyTorch-based neural network for recreating images us
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Image-Recreation-NN.git
+   git clone https://github.com/IKnowHow2Code/Image-Recreation-NN.git
    cd Image-Recreation-NN
