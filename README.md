@@ -10,7 +10,7 @@ This repository contains a PyTorch-based neural network for recreating images us
 
 ## Demo
 
-![Sample Image Recreation](demo/sample.gif)
+![Sample Image Recreation](sample.gif)
 
 ## Requirements
 
