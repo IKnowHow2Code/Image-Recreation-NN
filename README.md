@@ -8,6 +8,12 @@ This repository contains a PyTorch-based neural network that uses a perceptual l
 - **Video Output**: Save the progression of image recreation as an MP4 video, showing how the AI moves from noise to a refined image.
 - **Customizable Steps**: Fine-tune the number of optimization steps to improve the quality of the final image or adjust processing time.
 
+## Demo
+
+Here's a preview of how the AI progressively recreates an image from noise:
+
+![Sample Image Recreation](sample.gif)
+
 ## Requirements
 
 - **Python 3.7+**
