@@ -8,23 +8,22 @@ This repository contains a PyTorch-based neural network that uses a perceptual l
 - **Video Output**: Save the progression of image recreation as an MP4 video, showing how the AI moves from noise to a refined image.
 - **Customizable Steps**: Fine-tune the number of optimization steps to improve the quality of the final image or adjust processing time.
 
-## Demo
-
-Here's a preview of how the AI progressively recreates an image from noise:
-
-![Sample Image Recreation](sample.gif)
-
 ## Requirements
 
 - **Python 3.7+**
-- **PyTorch 1.8+** with CUDA support for GPU acceleration (optional but recommended for faster performance)
-- **torchvision**
-- **matplotlib**
-- **OpenCV** (for saving the video)
+- **Subprocess Support** (included in Python by default)
+- **pip** (Python package manager)
+- **Tkinter** (built into Python, but some OSs may require separate installation)
+
+The script will automatically install the following libraries if they are missing:
+
+- PyTorch (with CUDA support if available)
+- torchvision
+- matplotlib
+- pillow
+- opencv-python
 
 ## Installation
-
-You can either clone this repository using Git or download it as a ZIP file and extract it.
 
 ### Option 1: Clone the Repository
 
